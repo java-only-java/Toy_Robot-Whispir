@@ -14,9 +14,7 @@ public abstract class BaseCommand implements Command {
 	public Robot robot;
 	
 	public UserMove userMove;
-	
-	private static final String PLACE_COMMAND = "PlaceCommand";
-	private static final String REPORT_COMMAND = "ReportCommand";
+
 	
 	@Override
 	public void execute() {
